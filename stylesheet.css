@@ -1,0 +1,176 @@
+@import url(./_reset.css);
+
+body {
+  background-image: url(images/bgtile.png);
+  background-repeat: repeat-x;
+  background-size: 1px 280px;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+
+}
+
+.container {
+  width: 100%;
+}
+
+.mainContainer {
+  min-height: calc(100% - 50px);
+}
+
+.mainLeft {
+  width: 40%;
+  min-height: calc(100% - 50px);
+  float: left;
+}
+
+.mainLeftImage {
+  width: 318px;
+  height: 512px;
+  background-image: url(images/phones.png);
+  float: right;
+  margin-top: 97px;
+}
+
+.mainRight {
+  width: 60%;
+  min-height: calc(100% - 50px);
+  float: right;
+}
+
+.rightTop {
+  width: 540px;
+  height: 200px;
+
+}
+
+.logo {
+  width: 314px;
+  height: 78px;
+  background-image: url(images/brand.png);
+  float: left;
+  margin-top: 120px;
+  margin-left: 43px
+}
+
+button {
+  width: 95px;
+  height: 40px;
+  border-radius: 3px;
+  /*background-image: url(images/bgtile.png);*/
+
+  background:linear-gradient(#6791B1,#1C5A7F);
+  border: 2px solid #1C5A7F;
+  float: right;
+  margin-top: 140px;
+  margin-right: 5px;
+  color: #fff;
+  font-size: 0.95em;
+
+}
+
+button img {
+  float: left;
+}
+button  p{
+  margin-top: 2px;
+}
+
+.rightBtm {
+  width: 504px;
+  height: 345px;
+  background-image: url(images/frame.png);
+  background-repeat: no-repeat;
+  margin-left: 40px;
+  padding: 1px;
+
+}
+
+.title {
+  margin-top: 30px;
+  margin-left: 45px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #1C5A7F;
+}
+
+span {
+  font-weight: bold;
+}
+
+.story {
+  width: 85%;
+  margin-left: 45px;
+  margin-top: 15px;
+}
+
+.space {
+  line-height: 2px;
+}
+
+.footer {
+  width: 504px;
+  height: 51px;
+  margin-left: 40px;
+  padding: 1px;
+
+}
+
+.appStore {
+  width: 164px;
+  height: 51px;
+  background-image: url(images/badge-iphone.png);
+  display: inline-block;
+  margin-left: 45px;
+}
+
+.googlePlay {
+  width: 153px;
+  height: 51px;
+  background-image: url(images/badge-android.png);
+  display: inline-block;
+
+}
+
+.footerLinks {
+  height: 50px;
+  padding: 1px;
+}
+
+.allLinks {
+  width: 55%;
+  padding: 1px;
+  margin: 17px auto;
+
+}
+
+.link {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: #1C5A7F;
+
+}
+
+.grey {
+
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: #ccc;
+
+}
+
+.toggleImage {
+  width: 200px;
+  height: 201px;
+  background-color: transparent;
+  margin-top: 105px;
+  margin-left: 100px;
+
+}
+
+p {
+  line-height: 20px;
+}
